@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    "use strict";
+
+    /* let i = 3;
+    while (i) {
+      alert(i--);
+    } */
+
+    /* let i = 0;
+    do{
+      alert(i);
+      i++;
+    } while (i < 3); */
+
+    /* for (let i = 0; i < 3; i++){
+      alert(`цикл номер ${i}`);
+    } */
+
+    /* let i = 0;
+
+    for(i; i < 3; i++){
+      alert(`цикл номер ${i}`);
+    } */
+
+    /* let sum = 0;
+    while(1){
+      let value = +prompt("Введите число", "");
+      if (!value) break; // если введено 0 или пустая строка, то прерываем цикл
+      sum += value; // добавляем значение к сумме 
+    }
+    alert(`Сумма: ${sum}`); // выводим сумму */
+
+    /* for(let i = 0; i < 10; i++){
+      if (i%2 == 0) continue;
+      alert(i);
+    } */
+
+    /* outer: for(let i = 0; i < 3; i++){
+      for(let j =0; j < 3; j++){
+        let input = prompt(`Значение на координата  х (${i},${j})`, '');
+        if (!input) break outer;
+      }
+    }
+    alert('Готово!'); */
+
+    /* for(let i = 2; i <= 10; i++){
+      if (i % 2 == 0) {
+        alert(i);
+      }
+    } */
+
+
+    /* let i = 0;
+    while (i < 3){
+      alert(`number ${i}`);
+      i++
+    } */
+
+    let number = 0;
+
+    do{
+      number = +prompt('Введите число больше 100', '');
+    } while (number <= 100 && number);
+
+  </script>
+</body>
+
+</html>

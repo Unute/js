@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>let log = console.log;</script>
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    /* let user = {
+      name: 'John',
+      age: 30,
+      "likes birds": true,
+    };
+
+    alert(user.name);
+    user.isAdmin = true;
+    alert(user.isAdmin);
+    
+    delete user.age; */
+
+    /* const user = {
+      name: "john",
+    }
+
+    user.name = "peter";
+
+    alert(user.name); */
+
+    /* let user = {}
+    user["likes birds"] = true;
+
+    alert(`нравятся ли вам птицы? \n${user["likes birds"]}`);
+    delete user["likes birds"]; */
+
+    /* let key = "likes birds";
+
+    user[key] = true; */
+
+    /* let user = {
+      name: "John",
+      age: 30,
+    };
+
+    let key = prompt("Что вы хотите узнать о пользователе?", "name");
+
+    // доступ к свойству через переменную
+    alert(user[key]); // John (если ввели "name") */
+
+    /* let fruit = prompt("какой фрукт?", "apple");
+
+    let bag = {
+      [fruit] : 5,
+    };
+
+    alert(bag[fruit]); */
+
+    /* function makeUser(name, age){
+      return {
+        name: name,
+        age: age,
+      };
+    }
+
+    let user = makeUser("john", 30);
+    alert(user.name); */
+
+    /* let user = {
+      name,
+      age: 30,
+    }
+    alert('name' in user); */
+
+    /* let user = {
+      name: "John",
+      age: 30,
+      isAdmin: true
+    };
+
+    for(let i in user){
+      log(i);
+      alert(user[i]);
+    } */
+
+    /* let codes = {
+      "+49": "Германия",
+      "+41": "Швейцария",
+      "+44": "Великобритания",
+      // ..,
+      "+1": "США"
+    };
+
+    for (let i in codes) {
+      log(`${+i}: ${codes[i]}`);
+      // log(codes[i]);
+    } */
+
+
+    /* let user = {};
+
+    user.name = "john";
+    user.surname = "smith";
+    user.name = 'pete';
+    delete user.name */
+
+
+    /* function isEmpty(obj) {
+      for (let i in obj) {
+        return false
+      }
+      return true;
+    }
+
+    let schedule = {};
+
+    alert(isEmpty(schedule)); // true
+
+    schedule["8:30"] = "get up";
+
+    alert(isEmpty(schedule)); // false */
+
+
+    /* let salaries = {
+      John: 100,
+      Ann: 160,
+      Pete: 130
+    }
+
+    let sum = 0;
+    for(let i in salaries){
+      sum = sum + salaries[i];
+    }
+    alert(sum); */
+
+    /* function multiplyNumeric(obj) {
+      for(let key in obj){
+        if (typeof obj[key] == 'number'){
+          obj[key] *= 2;
+        }
+      }
+    }
+
+    // до вызова функции
+    let menu = {
+      width: 200,
+      height: 300,
+      title: "My menu"
+    };
+
+    multiplyNumeric(menu);
+
+    for (let i in menu) {
+      log(`${i}: ${menu[i]}`);
+    } */
+
+  </script>
+</body>
+
+</html>
