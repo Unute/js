@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    /* function User(name){
+      this.name = name;
+      this.isAdmin = false; 
+  }
+
+  let user = new User("John");
+
+  alert(user.name);
+  alert(user.isAdmin); */
+
+    /* function User() {
+      alert(new.target);
+    }
+    // без "new":
+    User(); // undefined
+    // с "new":
+    new User(); // function User { ... } */
+
+    /* function User(name) {
+      if (!new.target){
+        return new User(name);
+      }
+      this.name = name;
+    }
+    let John = User("John");
+    alert(John.name); // John */
+
+    /* function User(name) {
+      this.name = name;
+      this.sayHi = function () {
+        alert(`Меня зовут ${this.name}`);
+      };
+    }
+
+    let John = new User("John");
+    John.sayHi(); */
+
+    /* function Calculator() {
+      this.read = function () {
+        this.a = +prompt("a?", 0);
+        this.b = +prompt("b?", 0);
+      }
+
+      this.sum = function () {
+        return this.a + this.b;
+      }
+
+      this.mul = function () {
+        return this.a * this.b;
+      }
+    }
+
+    let calculator = new Calculator();
+    calculator.read();
+
+    alert("Sum=" + calculator.sum());
+    alert("Mul=" + calculator.mul());
+ */
+  </script>
+
+</body>
+
+</html>
